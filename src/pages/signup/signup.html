@@ -1,0 +1,29 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>signup</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-list inset>
+    <ion-item>
+      <ion-input type="text"  placeholder="Username"  [(ngModel)]="user.username">{{user.username}}</ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-input type="tel" required minlength="10" maxlength="10" pattern="[7|8|9][0-9]{9}"  placeholder="Contact number"  [(ngModel)]="user.phoneNumber"> {{user.phoneNumber}}</ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-input type="text"  placeholder="Email address"  [(ngModel)]="user.email">{{user.email}}</ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label>User Profile</ion-label>
+      <ion-select  [(ngModel)]="user.profile" multiple="true" cancelText="Cancel" okText="OK!">
+        <ion-option value="blind"  >BVI</ion-option>
+        <ion-option value="helper">HELPER</ion-option>
+      </ion-select>
+    </ion-item>
+    <div>
+      <button ion-button color="dark" block tappable (click)="createNewUser(user.username,user.phoneNumber,user.email,user.profile[0])"  [disabled]='user.username==""||user.phoneNumber==""||user.email==""||user.profile=="" '>Signin</button>
+    </div>
+</ion-list>
+</ion-content>

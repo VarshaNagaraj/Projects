@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "354729271398",
+    "firebase_url": "https://ionic-chat-starter-4b73a.firebaseio.com",
+    "project_id": "ionic-chat-starter-4b73a",
+    "storage_bucket": "ionic-chat-starter-4b73a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:354729271398:android:224113e9eb4e2260c24da7",
+        "android_client_info": {
+          "package_name": "com.varsha.lastattempt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "354729271398-h35s220miq580fno8s876479desdh0vg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4SiEB3LczZ9JJhKcvsNJopN-Ai67N1Bo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "354729271398-h35s220miq580fno8s876479desdh0vg.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "354729271398-tpf9v1gor15nkgs43b0j2mripoli4gru.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.varsha.lastattempt"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

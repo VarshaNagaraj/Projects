@@ -1,0 +1,10 @@
+
+<ion-content  class="main-view">
+  <div class="overlay" (click)="dismiss()"></div>
+  <div class="modal_content">
+    <!--used Pipes to access facetime application from HTML-->
+    <button ion-button color="dark" block tappable ><a [href]="this.userDetail.phoneNumber | safeUrl :'facetime:' " >Call </a></button> 
+     <button ion-button color="dark" block tappable ><a href="https://www.google.com/maps/search/?api=1&query={{this.messageDetail.latitude}}N,{{this.messageDetail.longitude}}W">View Maps </a></button> 
+  
+  </div>
+</ion-content>

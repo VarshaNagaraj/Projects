@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>354729271398-tpf9v1gor15nkgs43b0j2mripoli4gru.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.354729271398-tpf9v1gor15nkgs43b0j2mripoli4gru</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCw1J8X_AkYdCw6nzXto0fi6iWbQqJI9_E</string>
+	<key>GCM_SENDER_ID</key>
+	<string>354729271398</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.varsha.lastattempt</string>
+	<key>PROJECT_ID</key>
+	<string>ionic-chat-starter-4b73a</string>
+	<key>STORAGE_BUCKET</key>
+	<string>ionic-chat-starter-4b73a.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:354729271398:ios:3c172bb634989279c24da7</string>
+	<key>DATABASE_URL</key>
+	<string>https://ionic-chat-starter-4b73a.firebaseio.com</string>
+</dict>
+</plist>
